@@ -1,0 +1,31 @@
+{
+  "strategy_name": "combinedStrategy",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "buy": {
+      "buy_rsi": 29,
+      "exit_short_rsi": 15
+    },
+    "sell": {
+      "sell_rsi": 71,
+      "short_rsi": 60
+    },
+    "protection": {},
+    "roi": {
+      "0": 0.208,
+      "90": 0.154,
+      "251": 0.061,
+      "606": 0
+    },
+    "stoploss": {
+      "stoploss": -0.037
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2022-07-02 17:11:19.034592+00:00"
+}

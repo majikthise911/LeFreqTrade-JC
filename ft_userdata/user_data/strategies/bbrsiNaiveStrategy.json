@@ -1,0 +1,31 @@
+{
+  "strategy_name": "bbrsiNaiveStrategy",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "buy": {
+      "buy_rsi": 48,
+      "exit_short_rsi": 9
+    },
+    "sell": {
+      "sell_rsi": 79,
+      "short_rsi": 78
+    },
+    "protection": {},
+    "roi": {
+      "0": 0.15,
+      "109": 0.088,
+      "241": 0.044,
+      "480": 0
+    },
+    "stoploss": {
+      "stoploss": -0.328
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2022-07-30 17:45:19.785191+00:00"
+}
